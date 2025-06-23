@@ -1,0 +1,14 @@
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\my_solution.exe
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\my_solution.deps.json
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\my_solution.runtimeconfig.json
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\my_solution.dll
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\my_solution.pdb
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.AssemblyInfoInputs.cache
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.AssemblyInfo.cs
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.csproj.CoreCompileInputs.cache
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.dll
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\refint\my_solution.dll
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.pdb
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.genruntimeconfig.cache
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\ref\my_solution.dll
