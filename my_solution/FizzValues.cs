@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Globalization;
+﻿using System.Collections;
 
 public class FizzValue {
     public FizzValue(int index, string value) {
@@ -12,28 +10,44 @@ public class FizzValue {
 }
 
 class FizzValues : IEnumerable {
+    private int[] reservedNumbers = new int[6] { 3, 5, 7, 11, 13, 17 };
     private int[] numbers;
-    public FizzValues(string numbers) {
-        this.numbers = Array.ConvertAll(numbers.Split(","), s => int.Parse(s));
-    }
+    private bool rule_present = false;
+    private int factor;
+    private string word;
+    private bool end;
+    public FizzValues(Parameters args) {
+        this.numbers = args.numbers != null ? Array.ConvertAll(args.numbers.Split(","), s => int.Parse(s)) : new int[0];
 
-    public FizzValues() {
-        this.numbers = new int[0];
+        if (args.word != null && args.factor != 0 && !reservedNumbers.Contains(args.factor)) {
+            rule_present = true;
+            this.factor = args.factor;
+            this.word = args.word;
+            this.end = args.end;
+        }
     }
 
 
     public IEnumerator GetEnumerator() {
-        return new FizzValuesEnum(numbers);
+        return new FizzValuesEnum(numbers, rule_present, word, factor, end);
     }
 }
 
 
 public class FizzValuesEnum : IEnumerator {
-    private int next_val = 1;
+    private int next_val = 0;
     private int[] numbers;
+    private bool rule_present = false;
+    private int factor;
+    private string word;
+    private bool end;
 
-    public FizzValuesEnum(int[] numbers) {
+    public FizzValuesEnum(int[] numbers, bool rule_present, string word, int factor, bool end) {
         this.numbers = numbers;
+        this.rule_present = rule_present;
+        this.word = word;
+        this.factor = factor;
+        this.end = end;
     }
 
     public void Reset() {
@@ -50,18 +64,18 @@ public class FizzValuesEnum : IEnumerator {
             return new FizzValue(next_val, findval(next_val));
         }
     }
-    string findval(int i) {
+    public string findval(int i) {
         List<string> word_list = new List<string>();
 
-        if (i % 11 == 0) {
-            if (numbers.Contains(11) || numbers.Count() == 0) word_list.Add("Bong");
+        if (i % 11 == 0 && (numbers.Contains(11) || numbers.Count() == 0)) {
+            word_list.Add("Bong");
         }
         else {
             if (i % 3 == 0) {
                 if (numbers.Count() == 0 || numbers.Contains(3)) word_list.Add("Fizz");
             }
             if (i % 5 == 0) {
-                if (numbers.Count() == 0 || numbers.Contains(5))word_list.Add("Buzz");
+                if (numbers.Count() == 0 || numbers.Contains(5)) word_list.Add("Buzz");
             }
             if (i % 7 == 0) {
                 if (numbers.Count() == 0 || numbers.Contains(7)) word_list.Add("Bang");
@@ -89,6 +103,15 @@ public class FizzValuesEnum : IEnumerator {
             }
         }
 
+        // Handle custom rule
+        if (rule_present && i % factor == 0) {
+            if (end) {
+                word_list.Add(word);
+            }
+            else {
+                word_list.Insert(0, word);
+            }
+        }
         if ((numbers.Count() == 0 || numbers.Contains(17)) && i % 17 == 0) {
             word_list.Reverse();
         }

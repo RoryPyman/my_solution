@@ -5,12 +5,11 @@ public class Program {
         FizzValues fizzValues;
         Parser.Default.ParseArguments<Parameters>(args)
             .WithParsed(o => {
-                if (o.numbers != null) fizzValues = new FizzValues(o.numbers);
-                else fizzValues = new FizzValues();
+                fizzValues = new FizzValues(o);
                 int i = 0;
                 foreach (FizzValue val in fizzValues) {
-                    Console.WriteLine("Good Morning " + val.value);
-                    if (i >= 1000) {
+                    Console.WriteLine(val.value);
+                    if (i >= 10) {
                         break;
                     }
                     i++;
