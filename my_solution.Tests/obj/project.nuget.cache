@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AWj3E55gKHU=",
+  "dgSpecHash": "a+0WS2HRtSA=",
   "success": true,
   "projectFilePath": "C:\\Users\\rorpym\\OneDrive - Softwire Technology Limited\\Desktop\\FizzBuzz\\my_solution\\my_solution.Tests\\my_solution.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rorpym\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
     "C:\\Users\\rorpym\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\rorpym\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\rorpym\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",

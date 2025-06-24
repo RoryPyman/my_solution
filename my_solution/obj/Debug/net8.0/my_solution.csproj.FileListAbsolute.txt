@@ -12,3 +12,7 @@ C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solut
 C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.pdb
 C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.genruntimeconfig.cache
 C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\ref\my_solution.dll
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.sourcelink.json
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\bin\Debug\net8.0\CommandLine.dll
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solution.csproj.AssemblyReference.cache
+C:\Users\rorpym\OneDrive - Softwire Technology Limited\Desktop\FizzBuzz\my_solution\my_solution\obj\Debug\net8.0\my_solut.6587EC13.Up2Date

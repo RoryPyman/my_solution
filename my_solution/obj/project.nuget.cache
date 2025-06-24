@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LB7aV7lXPLM=",
+  "dgSpecHash": "TvzhrSYUnv4=",
   "success": true,
   "projectFilePath": "C:\\Users\\rorpym\\OneDrive - Softwire Technology Limited\\Desktop\\FizzBuzz\\my_solution\\my_solution\\my_solution.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rorpym\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
+  ],
   "logs": []
 }
